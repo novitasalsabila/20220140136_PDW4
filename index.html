@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan file CSS -->
+</head>
+<body>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <form id="form" action="halaman-kedua.html"> <!-- Form login dengan aksi mengarah ke halaman-kedua.html -->
+        <h2>Login</h2>
+        <label for="username">Username:</label> <!-- Label untuk input username -->
+        <input type="text" id="username" name="username" required><br><br> <!-- Input field untuk username -->
+        <label for="password">Password:</label><!-- Label untuk input password -->
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit" onClick="login()">Login</button> <!-- Tombol untuk submit form dan memanggil fungsi login() -->
+    </form>
+      <button type="button" class="cancelbtn">Cancel</button> <!-- Tombol cancel -->
+      <br>
+      <br>
+      <span class="psw">Forgot <a href="#">password?</a></span> <!-- Link untuk mengingatkan kata sandi, tpi aku belum masukin;)-->
+    </div>
+<script src="main.js"></script> <!-- Menghubungkan file JavaScript -->
+</body>
+</html>
+
+
+
+   <!--<div class ="login form"></div>
+  <h2>Login</h2>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <button onclick="myFunction()" type="submit">Login</button>
+  </form>
+  <div>
+    <script>
+      function myFunction(){
+        alert("Berhasil login kedata Sistem")
+      }
+    </script>
+    <br>
+  </div>
+  <p id="waktu"></p>
+ <script src="main.js"></script>
+--> 
+ 
